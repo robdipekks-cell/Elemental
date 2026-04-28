@@ -113,6 +113,7 @@ local Tabs = {
     Venom       = Window:AddTab({ Title = "Venom",        Icon = "droplet"        }),
     Devil       = Window:AddTab({ Title = "Devil",        Icon = "alert-triangle" }),
     Space       = Window:AddTab({ Title = "Space",        Icon = "telescope"      }),
+    Water       = Window:AddTab({ Title = "Water",        Icon = "Water"      }),
     Advance     = Window:AddTab({ Title = "Advance",      Icon = "settings"       }),
 }
 
@@ -469,6 +470,7 @@ local elementData = {
     { tab = Tabs.Venom,      name = "Venom",      spells = {"Venom Blade","Poison Bullet","Acid Rain","Venom Stream","Hardened Venom","Poison Demon","Bubbling Venom"} },
     { tab = Tabs.Devil,      name = "Devil",      spells = {"Devil Sword","Evil Bullet","Fangs Barrage","Evil Flash","Demon Orb","Demon Lock","Dark Tsunami"} },
     { tab = Tabs.Space,      name = "Space",      spells = {"Space Gun","Blackhole Orb","Moon Splitter","Asteroid Belt","Meteor Jam","Cosmic Remote","Space Saucer"} },
+    { tab = Tabs.Water,      name = "Water",      spells = {"Aqua Trident","Big Tsunami","Bubble Dash","Bubbles","Jellyfish","Water Beam"} },
 }
 
 for _, element in ipairs(elementData) do
