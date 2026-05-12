@@ -50,8 +50,8 @@ end
 
 -- ─── Window ──────────────────────────────────────────────────────────────────
 local Window = Fluent:CreateWindow({
-    Title       = "OuxiHub | Elemental Powers",
-    SubTitle    = "v1",
+    Title       = "Oorbits And Hammi Project",
+    SubTitle    = "Private",
     TabWidth    = 160,
     Size        = UDim2.fromOffset(580, 500),
     Acrylic     = false,
